@@ -1,0 +1,22 @@
+.blue {
+    background-color: blue;
+    width:100%;
+    height:100px;
+}
+.red {
+    background-color: red;
+    width:100%;
+    height:100px;
+}
+@media screen and (min-width:767px) {
+    .blue {
+        background-color: yellow;
+        width:100%;
+        height:100px;
+    }
+    .red {
+        background-color: yellow;
+        width:100%;
+        height:100px;
+    } 
+}

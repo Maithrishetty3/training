@@ -1,0 +1,359 @@
+header
+{
+    background-image: url("https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/blog/blog-header.png");
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+}
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+ }
+ header .logo
+ {
+     padding: 10px;
+     padding-left: 50px;
+
+ }
+ .navbar-default .navbar-nav li
+ {
+     padding:40px 0px;
+     margin-left: 10px;
+     font-size: 16px;
+     font-weight: 550;
+ }
+ .navbar-default .navbar-nav li a {
+     color:white;
+ }
+ 
+ nav ul
+ {
+     margin-top: 20px;
+     padding-right: 40px;
+ }
+nav a 
+ {
+  color: white;
+  padding: 0;
+ }
+ .navbar-default .navbar-nav li a:hover
+ {
+     color: yellow;
+ }
+ .hero2 h1{
+    margin: 0 45px 29px 45px;
+    line-height: 84px;
+    font-weight: 800;
+    font-size: 80px;
+    color: #fff;    
+}
+
+.hero2 p
+{
+color: white;
+font-weight: 400;
+font-size: 16px
+}
+.hero2
+{
+    padding: 100px 0;
+    padding-bottom: 120px;
+}
+.blog-section a
+{
+    color: #333;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+.blog-section a:hover{
+    color:yellow;
+}
+
+.user-color
+{
+    color: #f1d204;
+}
+.linkoverride a
+{
+color: #888;
+font-size: 14px;
+font-weight: 400
+}
+.blogmeta
+{
+    padding: 20px 0;
+}
+.blogmeta span
+{
+    padding-right: 20px;
+}
+.blogmeta span:last-child
+{
+    padding-left: 3 0px;
+}
+.articles p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8c9597;
+    max-width: 90%;
+}
+.articles .button a
+{
+    height: 45px;
+    line-height: 45px;
+    background-color: #f1d204;
+    padding: 0 30px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+.articles .button a:hover{
+    background-color: purple;
+}
+.blog-section
+{
+    padding: 50px 0 40px 0;
+}
+.articles
+{
+    max-width: 90%;
+    padding-left: 10px;
+}
+input {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.search
+{
+    border:1px solid #d7d7d7;
+    width:250px;
+    padding: 7px;
+    border-radius:5px;
+}
+.search::after
+{
+    content: "\f002";
+    color: #a9afb1;
+    font-family: "FontAwesome";
+    font-size: 15px;
+   
+}
+aside ul li a{
+    width: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8c979e;
+}
+.aside ul li a
+{
+    text-decoration: none;
+}
+aside ul{
+    padding: 0;
+    list-style-type: none;
+}
+aside ul li
+{
+    line-height: 38px;
+}
+aside a:hover{
+    color: purple;
+}
+.recentpost a
+{
+    text-decoration: none;
+}
+aside h4{
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 700;
+    color:#8c9597;
+    padding-top: 50px;
+}
+.recent-comment
+{
+    color:#8c9597;
+}
+.recent-comment a{
+    color: #f1d204;
+}
+
+.aside{
+    border-left: 1px solid #ebebeb;
+    padding-left: 40px;
+}
+.asidetop
+{
+    padding:50px 20px;
+}
+.footer
+{
+background-color: #292825;
+padding: 30px 0px;
+width: 100%;
+}
+.footer a{
+    color: #8c979e;
+}
+
+.footer ul li{
+    font-size: 16px;
+    font-weight:400;
+    line-height:2.4;
+    list-style-type: none;
+}
+.footer h5{
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 700;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #6a4d8a;
+}
+.copyright
+{
+    background-color: #242320;
+    padding: 30px 0;
+    color: white;
+}
+.blogmeta1
+{
+    padding: 50px 0;
+}
+.blogmeta1 span
+{
+   padding: 0px 5px;
+}
+.blogmeta1 span:last-child
+{
+    padding-left: 30px;
+}
+.comment-section
+{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8c9597;
+    text-align: left;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+.aigars
+{
+ background-color: #f9f9f9;   
+ padding: 20px ;
+ margin-top:50px;
+}
+.aigars h4
+{
+    line-height: 1.7;
+    display: inline-block;
+    font-size: 20px;
+    color: #f1d204;  
+}
+.imagetext
+{
+    position: relative;
+}
+.texton
+{
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    padding: 10px 10px;
+    text-align: left;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.texton:hover{
+    text-decoration: none;
+    color: #f1d204;
+}
+.padrem
+{
+    padding: 0px;
+    margin-right: 30px;
+}
+.comment-sec {
+    width: 100%;
+    margin: 60px 0 15px 0;
+    font-weight: 700;
+    font-size: 17px;
+    color: #333;
+}
+.nest .media-img1 {
+    width:84px;
+    height: 84px;
+}
+.nest .name {
+    margin: 10px 0 10px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8C9597;
+}
+.nest .name p {
+    padding: 20px 0 10px 0;
+}
+.nest .name .yellow {
+    color:#f1d204;
+}
+.nest .sub {
+    margin-left: 50px;
+}
+.nest .sub1 {
+    margin-left: 100px;
+}
+.nest .sub2 {
+    margin-left: 150px;
+}
+.leave {
+    width: 100%;
+    margin: 40px 0 15px 0;
+    font-weight: 700;
+    font-size: 17px;
+    color: #333;
+}
+.input-full {
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 5px 10px;
+    border: 1px solid #d7d7d7;
+    font-weight: 400;
+    color: #8c9597;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: transparent;
+}
+.text-comment {
+    height: 125px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+}
+.button-yellow {
+    background-color: #f1d204;
+    color: white;
+    margin-left: 15px;
+    border: none;
+    padding-bottom: 0px;
+}
+.button-yellow:hover
+{
+    background-color: purple;
+    color: white;
+}

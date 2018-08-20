@@ -1,0 +1,301 @@
+.container {
+    padding-top: 30px;
+}
+.about-heading {
+    color: #545454;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top:30px;
+}
+.about-text {
+    line-height: 26px;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 109px;
+    color:#8c9597;
+}
+.about-color {
+    background-color: #f1d204;
+}
+.about-color1 {
+    background-color: #6a4d8a;
+}
+.about-space {
+    margin-top: 60px;
+}
+.progress-bar {
+    position: relative;
+}
+.text .glyp1 {
+    color:rgb(241, 139, 109);
+}
+.text .glyp2 {
+    color:#f1d204;
+}
+.text .glyp3 {
+    color:#6a4d8a;
+}
+.icon {
+    position: absolute;
+    top:5px;
+}
+.bg-info {
+    background-color: rgb(241, 139, 109);
+}
+.project {
+    background-image: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+    position: relative;
+    top:100px;
+    text-align: center;
+}
+.project-head {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-top: 68px;
+}
+.project .project-info {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: "Lato";
+    font-weight: 400;
+}
+.project .project-img {
+    margin-top: 65px;
+}
+.project .img-padding {
+ padding: 0px 0px;
+}
+.project .project-img .project-img-size {
+    width:100%;
+    height: 100%;
+}
+.testimonial {
+    position: relative;
+    top:70px;
+    margin-bottom: 50px;
+    height: 600px;
+}
+.testimonial h3 {
+    position:absolute;
+    top:75px;
+    left:540px;
+    color:#fff;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.test-backimg {
+    
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 30px;
+}
+.testimonial .carousel-inner {
+    position: absolute;
+    top:200px;
+}
+.testimonial .carousel-inner .carousel-img {
+    width: 127px;
+    height: 127px;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+ .testimonial .carousel-indicators {
+     position: absolute;
+     top:600px;
+ }
+.testimonial .carousel-inner .position {
+    color:white;
+}
+.testimonial .carousel-inner .carousel-text {
+    width: 890px;
+    color:#fff;
+    background-color: #6a4d8a;
+    margin-bottom: 48px;
+    margin-left: 200px;
+    padding: 50px 35px 25px;
+
+}
+.testimonial h6{
+    color:#fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.services {
+    position: relative;
+    top:50px;
+    height:475px;
+}
+.services .service-head {
+margin-bottom: 40px;
+}
+.services .main-head h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    color:#545454;
+}
+.services .sub-head {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-weight: 400;
+}
+.services .icon-pencil {
+    font-size: 35px;
+    color:rgb(241, 139, 109);
+}
+.services .description {
+    font-size: 23px;
+    font-weight: 700;
+    color:rgb(241, 139, 109);
+}
+.services .icon-info {
+    line-height: 26px;
+    color: #8c9597;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.services .icon-code {
+    font-size: 35px;
+    color:#f1d204;
+}
+.services .description1 {
+    font-size: 23px;
+    font-weight: 700;
+    color:#f1d204;
+}
+.services .icon-search {
+    font-size: 35px;
+    color:#6a4d8a;
+}
+.services .description2 {
+    font-size: 23px;
+    font-weight: 700;
+    color:#6a4d8a;
+
+}
+.services .space {
+    margin-top: 45px;
+}
+
+.team {
+    position: relative;
+    background-image: url(https://cdn.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+    height:450px;
+
+}
+.team .team-head h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #545454;
+}
+.team .sub-head {
+    font-size: 16px;
+    color: #8c9597;
+    font-weight: 400;
+}
+.team .row .media .media-img {
+    width:127px;
+    height: 127px;
+    border-radius: 50%;
+}
+.team .row .media .media-top {
+    color:#5e5e5e;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.team .row .media .media-body .media-p {
+    color: rgb(241, 139, 109);
+}
+.team .row .media .media-body .p {
+    color:#8c9597;
+    margin-top: 20px;
+}
+ .a {
+     width: 100px;
+     height: 100px;
+    border-radius: 50%;
+    border:1px solid rgb(241, 139, 109);
+}
+ul li {
+    display: inline-block;
+    /* float: left; */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+.logo {
+    float:left;
+}
+.team-color{
+    color:rgb(241, 139, 109);
+}
+.media-p1 {
+    color:#f1d204; 
+}
+.team-color1{
+    color:#f1d204;
+}
+.media-p2 {
+    color:#6a4d8a; 
+}
+.team-color2{
+    color:#6a4d8a;
+}
+.team .team-row {
+    margin-top: 60px;
+}
+.contact-us {
+    position: relative;
+    height: 300px;
+}
+.contact-us .contact-head h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #545454;
+}
+.contact-us .row .address {
+    float:left;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f1d204;
+    padding: 0 20px 0 0;
+    border-right: 1px solid #e1e1e1;
+    height: 50px;
+}
+.contact-us .row .add-info {
+    float:left;
+    padding-left: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #8c9597;
+}
+.loogo {
+    float: right;
+    padding: 5px;
+    color: #8c9597;
+
+}
+.contact-us .contact-row {
+    margin-top: 70px;
+}
