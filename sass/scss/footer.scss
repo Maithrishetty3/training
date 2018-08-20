@@ -1,0 +1,16 @@
+
+footer {
+    padding: 40px;
+    background-color: $gray-base;
+    color:$body-bg;
+    span {
+        font-size:20px;
+    }
+    ul{
+        padding: 10px;
+    }
+    li {
+        list-style-type:square;
+        padding: 10px 0 10px 0;
+    }
+}

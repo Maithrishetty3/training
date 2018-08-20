@@ -1,0 +1,50 @@
+@import 'bootstrap/_variables';
+
+header {
+    .navbar{
+ background-color: $brand-info;
+ margin-bottom: 0px;
+    }
+   
+    // padding: 20px;
+    .logo {
+        padding: 10px 0 10px 50px;
+        width:200px;
+        height: 100px;
+    }
+    .navbar-nav {
+        float:right;
+        padding-top: 20px;
+        padding-right:100px;
+       
+    }
+    li {
+        color:$gray-base;
+    }
+}
+
+@media (max-width:767px)
+{
+    header {
+        .navbar{
+     background-color: $brand-info;
+     margin-bottom: 0px;
+        }
+       
+        // padding: 20px;
+        .logo {
+            padding: 10px 0 10px 50px;
+            width:200px;
+            height: 100px;
+        }
+        .navbar-nav {
+            float:left;
+            padding-top: 20px;
+            padding-right:0;
+           
+        }
+        li {
+            color:$gray-base;
+        }
+    }
+}

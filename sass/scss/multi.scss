@@ -1,0 +1,19 @@
+@import 'bootstrap/_variables';
+.multi {
+    background-color: $brand-info;
+    padding-bottom: 40px;
+    h2 {
+        padding-top: 40px;
+        margin-top: 0px;
+    }
+    .multi-img {
+        margin-top: 40px;
+      width:120px;
+      height:120px;
+      border-radius: 50%;
+    }
+    .multi-text {
+        padding-top: 20px;
+        line-height: 25px;
+    }
+}
