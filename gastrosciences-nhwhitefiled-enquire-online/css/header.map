@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/header.css",
+	"sources": [
+		"../scss/header.scss"
+	],
+	"sourcesContent": [
+		""
+	],
+	"mappings": "",
+	"names": []
+}
