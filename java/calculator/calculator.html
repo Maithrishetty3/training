@@ -1,0 +1,106 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/calculator.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+<script src="js/calculator.js">
+    </script>
+</head>
+
+<body>
+    <form name="calculator">
+        <div class="col-xs-10 col-md-4" id="border" style="margin-top:50px;margin-left:35%;">
+            <div class="container" id="container-width">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12" id="operation">
+                        <input type="text" id="values" name="values" placeholder="0">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12" id="equal-to">
+                            <input type="text" id="answer" placeholder="=">
+
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-xs-3" id="box">
+                            <input id="button_grey" type="button" value="AC" onclick="All_clear()">
+                        
+                    </div>
+                    <div class="col-xs-3" id="box">
+                            <input id="button_grey" type="button" value="+/-" onclick="calculator.values.value +='+/-'">
+
+                    </div>
+                    <div class="col-xs-3" id="box">
+                            <input id="button_grey" type="button" value="%" onclick="calculator.values.value +='%'">
+                    </div>
+                    <div class="col-xs-3" id="box">
+                            <input id="button_grey" type="button" value="x" onclick="calculator.values.value +='*'">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-xs-3" id="box">
+                        <input id="size" type="button" value="1" onclick="calculator.values.value +='1'">
+                    </div>
+                    <div class="col-xs-3" id="box">
+                            <input id="size" type="button" value="2" onclick="calculator.values.value +='2'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="3" onclick="calculator.values.value +='3'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="button_grey" type="button" value="/" onclick="calculator.values.value +='/'">
+                    </div>
+                </div>
+                <div class="row text-center ">
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="4" onclick="calculator.values.value +='4'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="5" onclick="calculator.values.value +='5'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="6" onclick="calculator.values.value +='6'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="button_grey" type="button" value="-" onclick="calculator.values.value +='-'">
+                    </div>
+                </div>
+                <div class="row text-center ">
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="7" onclick="calculator.values.value +='7'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="8" onclick="calculator.values.value +='8'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="9" onclick="calculator.values.value +='9'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="button_grey" type="button" value="+" onclick="calculator.values.value +='+'">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-xs-6 " id="box">
+                            <input id="size" type="button" value="0" onclick="calculator.values.value +='0'" style=" border-bottom-left-radius:20px;">
+                    </div>
+                    
+                    <div class="col-xs-3 " id="box">
+                            <input id="size" type="button" value="." onclick="calculator.values.value +='.'">
+                    </div>
+                    <div class="col-xs-3 " id="box">
+                            <input id="equal_button" type="button" value="=" onclick="sum()">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

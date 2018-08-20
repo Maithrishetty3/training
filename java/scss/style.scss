@@ -1,0 +1,8 @@
+@import 'header.scss';
+@import 'bootstrap/_variables.css';
+body{
+    background-color: blue;
+}
+p{
+    color:$brand-success;
+}

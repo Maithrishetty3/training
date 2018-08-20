@@ -1,0 +1,107 @@
+<!<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/weather.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="js/bootstrap.min.js" />
+    <link rel="stylesheet" type="text/css" media="screen" href="js/jquery.min.js" />
+
+    <script src="js/weather.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="body_load()">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-12 main_div">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 today_info text-center">
+                        <h3 id="day0"></h3>
+                        <div class="weather_img">
+                            <img id="weather-image0">
+                        </div>
+                        <div class="temp-container">
+                            <span id="highest_temp0"></span>
+                            <span id="lowest_temp0"></span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-8 right_content">
+                        <img src="images/weatherapp.jpg" class="img_size">
+                        <h3 id="wishing"></h3>
+                        <!-- <h1 class="city">BANGALORE</h1> -->
+                        <!-- Drop down for different cities -->
+                        <div class="differentcity_dropdown">
+                            <select id="selection" onchange="body_load()">
+                                <option value="bangalore">BANGALORE</option>
+                                <option value="mangalore">MANGALORE</option>
+                                <option value="chennai">CHENNAI</option>
+                                <option value="kerala">KERALA</option>
+                                <option value="goa">GOA</option>
+
+                            </select>
+                        </div>
+                        <i class="fa fa-navicon menu_icon"></i>
+                    </div>
+                </div>
+                <!-- weather information of different days in a city -->
+                <div class="row next_day">
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <h5 id="day1" class="bottom_day"></h5>
+                        <img id="weather-image1" class="image-bottom">
+                        <div class="bottom-temp-container">
+                            <span id="highest_temp1" class="bottom_high"></span>
+                            <span id="lowest_temp1" class="bottom_low"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <h5 id="day2" class="bottom_day"></h5>
+                        <img id="weather-image2" class="image-bottom">
+                        <div class="bottom-temp-container">
+                            <span id="highest_temp2" class="bottom_high"></span>
+                            <span id="lowest_temp2" class="bottom_low"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <h5 id="day3" class="bottom_day"></h5>
+                        <img id="weather-image3" class="image-bottom">
+                        <div class="bottom-temp-container">
+                            <span id="highest_temp3" class="bottom_high"></span>
+                            <span id="lowest_temp3" class="bottom_low"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <h5 id="day4" class="bottom_day"></h5>
+                        <img id="weather-image4" class="image-bottom">
+                        <div class="bottom-temp-container">
+                            <span id="highest_temp4" class="bottom_high"></span>
+                            <span id="lowest_temp4" class="bottom_low"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <h5 id="day5" class="bottom_day"></h5>
+                        <img id="weather-image5" class="image-bottom">
+                        <div class="bottom-temp-container">
+                            <span id="highest_temp5" class="bottom_high"></span>
+                            <span id="lowest_temp5" class="bottom_low"></span>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-2">
+                        <h5 id="day6" class="bottom_day"></h5>
+                        <img id="weather-image6" class="image-bottom">
+                        <div class="bottom-temp-container">
+                            <span id="highest_temp6" class="bottom_high"></span>
+                            <span id="lowest_temp6" class="bottom_low"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

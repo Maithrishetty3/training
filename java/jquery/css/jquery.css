@@ -1,0 +1,39 @@
+.main_section{
+    background-color: rgb(133, 119, 119);
+}
+
+#box {
+    width:500px;
+    height:700px;
+    margin: auto;
+    margin-top: 100px;
+    color:purple;
+    background-color: #fff;
+    display: none;
+}
+
+.circle {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 100px;
+    color:red;
+    display: none;
+}
+#hide_circle {
+    color:blue;
+    background-color: #fff;
+}
+
+#change_color {
+    color:blue;
+    background-color: #fff;
+}
+#button_size {
+    width:150px;
+    height:30px;
+    margin-top: 100px;
+    margin-left: 45px;
+}
