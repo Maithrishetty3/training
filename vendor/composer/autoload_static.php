@@ -22,6 +22,7 @@ class ComposerStaticInit08b65c9af3a227c86e2b58d76bfbaab5
         ),
         'W' => 
         array (
+            'Wikimedia\\Composer\\' => 19,
             'Webmozart\\PathUtil\\' => 19,
             'Webmozart\\Assert\\' => 17,
         ),
@@ -77,6 +78,7 @@ class ComposerStaticInit08b65c9af3a227c86e2b58d76bfbaab5
         array (
             'Drush\\Internal\\' => 15,
             'Drush\\' => 6,
+            'Drupal\\Core\\Composer\\' => 21,
             'DrupalCodeGenerator\\' => 20,
         ),
         'C' => 
@@ -87,6 +89,7 @@ class ComposerStaticInit08b65c9af3a227c86e2b58d76bfbaab5
             'Consolidation\\Config\\' => 21,
             'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
+            'Composer\\Installers\\' => 20,
         ),
     );
 
@@ -94,6 +97,10 @@ class ComposerStaticInit08b65c9af3a227c86e2b58d76bfbaab5
         'XdgBaseDir\\' => 
         array (
             0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
+        ),
+        'Wikimedia\\Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wikimedia/composer-merge-plugin/src',
         ),
         'Webmozart\\PathUtil\\' => 
         array (
@@ -207,6 +214,10 @@ class ComposerStaticInit08b65c9af3a227c86e2b58d76bfbaab5
         array (
             0 => __DIR__ . '/..' . '/drush/drush/src',
         ),
+        'Drupal\\Core\\Composer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/drupal/core/lib/Drupal/Core/Composer',
+        ),
         'DrupalCodeGenerator\\' => 
         array (
             0 => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src',
@@ -234,6 +245,10 @@ class ComposerStaticInit08b65c9af3a227c86e2b58d76bfbaab5
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
+        ),
+        'Composer\\Installers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
     );
 

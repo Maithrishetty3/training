@@ -1,5 +1,6 @@
 {
     "require": {
-        "drush/drush": "^9.4"
+        "drush/drush": "^9.4",
+        "drupal/drupal": "^8.6"
     }
 }
